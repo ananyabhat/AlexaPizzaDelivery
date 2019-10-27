@@ -1,0 +1,11 @@
+welcome: Welcome to the best pizza delivery system. Would you like to order a pizza?
+
+size: Great, what size pizza would you like?
+
+toppings: Ok, I will order a {{ size }} pizza for you. What toppings would you like on your pizza? You can choose up to four toppings.
+
+order: Great, I will order a {{ size }} pizza with {{ toppings|join(" and ") }} on it. Would you like to add another pizza to your order?
+
+cancel: Ok, I will remove this pizza from your overall order. Would you like to order a new pizza instead?
+
+thanks: Thanks for ordering! Your order will be ready in ten minutes. If you would like to order another pizza at a later time, just say hey alexa, start pizza delivery.
